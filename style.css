@@ -1,33 +1,173 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     display: flex;
     flex-direction: column;
 }
+
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 220px;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 24px;
+    padding: 0;
 }
 
 a {
-    text-decoration: none;
     color: #F9FAF8;
+    text-decoration: none;
+}
+
+.one,
+.two {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 .one {
+    margin: 50px 220px 100px;
+    gap: 64px;
+}
+
+.left {
+    flex: 1 1 0;
+}
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.intro {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+    margin-top: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D747D;
+    color: #F9FAF8;
+    flex: 1 1 0;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    padding: 32px 0 100px 0;
+    text-align: center;
+    color: #1F2937;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.picture {
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin: 16px auto 8px;
+}
+
+.text {
+    width: 150px;
+}
+
+.three {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote {
+    width: 825px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.signature {
+    width: 800px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.calling-box .button {
+    border: solid 2px #F9FAF8;
+}
+
+.four {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calling-box {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex: 1 1 0;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 48px;
+    margin: 80px 220px;
+}
+
+.calling {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.suggestion {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
