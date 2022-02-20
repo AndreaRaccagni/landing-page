@@ -1,3 +1,3 @@
 # landing-page
 
-In this is a page I could practice flexbox.
+This is my personalized landing-page from TheOdinProject.
